@@ -214,3 +214,54 @@ footer{
 footer p{
     font-size: 30px;
 }
+.product-text{
+    text-align: center;
+}
+.slideshow-container{
+    display: flex;
+}
+.mySlides{
+    width: 33.33%;
+    justify-content: center;
+    align-items: center;
+
+}
+.mySlides img{
+    padding: 50px;
+}
+
+.mySlides div{
+    text-align: center;
+
+}   
+.mySlides h1{
+    font-size: 36px;
+}
+.mySlides h2{
+    color: #DD1B59;
+}
+.mySlides p{
+    font-size: large;
+    margin-top: 20px;
+}
+
+.mySlides button{
+    background-color: none;
+    color: #999898;
+    padding: 10px 30px;
+    border-radius: 45px;
+    margin: 30px auto 50px auto;
+    font-size: 16px; ;
+    cursor: pointer;
+    border: 1px solid #999898;
+}
+.prev, .next{
+    margin-top: 200px;
+}
+
+input, textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 0px;
+}
